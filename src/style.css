@@ -44,6 +44,7 @@ p {
 .navigation-links {
   display: flex;
   margin-top: 40px;
+  margin-bottom: 0px;
   justify-content: center;
 }
 
@@ -155,6 +156,6 @@ a:hover {
   }
 
   h3 {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
