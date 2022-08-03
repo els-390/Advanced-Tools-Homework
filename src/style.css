@@ -7,7 +7,7 @@
 body {
   margin: 60px auto;
   max-width: 100%;
-  margin-top: 100px;
+  margin: 100px 0;
 }
 
 h1,
@@ -38,6 +38,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+  text-align: left;
 }
 
 .navigation-links {
@@ -138,4 +139,22 @@ a:hover {
   color: var(--primary-color);
   border: 5px;
   border-color: var(--primary-color);
+}
+
+@media (max-width: 576px) {
+  .container {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
 }
